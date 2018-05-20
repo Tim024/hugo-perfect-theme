@@ -1,8 +1,8 @@
-name = "Tim simple"
+name = "hugo-perfect-theme"
 license = "MIT"
-licenselink = "https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md"
+licenselink = "https://github.com/Tim024/hugo-perfect-theme/blob/master/LICENSE.md"
 description = "A simple and clean blog theme for Hugo"
-homepage = "https://github.com/luizdepra/hugo-coder/"
+homepage = "https://github.com/Tim024/hugo-perfect-theme"
 tags = [
   "blog",
   "minimal",
@@ -19,8 +19,8 @@ features = [
   "single-column",
   "syntax-highlighting"
 ]
-min_version = "0.32"
+min_version = "0.40"
 
 [author]
   name = "Tim van der Lee"
-  homepage = "https://luizdepra.com"
+  homepage = "https://tim.vanderlee.family"

@@ -2,15 +2,12 @@
   <div class="about">
     <h1>{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
+    {{if isset .Site.Params "coverpic"}}
     <a href={{ .Site.Params.coverlink }}>
       <img src={{ .Site.Params.coverpic }} width=100%/>
     </a>
-    {{ with .Site.Params.social }}
-    <ul>
-      {{ range sort .}}
-      <li><a href="{{ .url }}">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
+    {{ else }}
     {{ end }}
+    {{ partial "social.html" . }}
   </div>
 </section>
