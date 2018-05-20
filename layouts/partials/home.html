@@ -1,6 +1,7 @@
 <section class="container centered">
   <div class="about">
     <h1>{{ .Site.Params.author }}</h1>
+    {{ partial "social.html" . }}
     <h2>{{ .Site.Params.info }}</h2>
     {{if isset .Site.Params "coverpic"}}
     <a href={{ .Site.Params.coverlink }}>
@@ -8,6 +9,5 @@
     </a>
     {{ else }}
     {{ end }}
-    {{ partial "social.html" . }}
   </div>
 </section>
