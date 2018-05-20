@@ -1,0 +1,26 @@
+name = "Tim simple"
+license = "MIT"
+licenselink = "https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md"
+description = "A simple and clean blog theme for Hugo"
+homepage = "https://github.com/luizdepra/hugo-coder/"
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive",
+  "simple",
+  "clean",
+  "personal"
+]
+features = [
+  "analytics",
+  "favicon",
+  "pagination",
+  "single-column",
+  "syntax-highlighting"
+]
+min_version = "0.32"
+
+[author]
+  name = "Tim van der Lee"
+  homepage = "https://luizdepra.com"

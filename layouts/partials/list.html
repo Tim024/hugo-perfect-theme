@@ -1,0 +1,11 @@
+<section class="container list">
+  <h1 class="title">{{ .Title }}</h1>
+  <ul>
+    {{ range .Paginator.Pages }}
+    <li>
+      <span>{{ .Date.Format "Jan, 2006" }} {{ if isset .Params "enddate" }} - {{.Params.enddate}} {{ else }} {{ end }}</span><a href="{{ .URL }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ partial "pagination.html" . }}
+</section>
